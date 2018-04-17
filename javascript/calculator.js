@@ -208,7 +208,7 @@ function displayDot(){
     screenInput.value += dotBtnValue;
 }
 
-// SUM button //
+// SUM = button //
 let sumBtn = document.querySelector(".sum");
 sumBtn.addEventListener("click", runSum);
 
