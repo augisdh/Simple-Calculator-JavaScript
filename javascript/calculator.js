@@ -3,7 +3,7 @@
 let calculateValue = document.querySelector(".screenCalculateValue");
 let screenInput = document.querySelector(".screenValue");
 
-// keyup function //
+// keyup event //
 window.addEventListener("keyup", function(event){
     if(event.shiftKey && event.keyCode === 57){
         displaySkliaustaiOpen();
@@ -46,7 +46,7 @@ window.addEventListener("keyup", function(event){
     }
 });
 
-// Skliaustu-open button //
+// Bracket-open button //
 let skliaustaiBtnOpen = document.querySelector(".skliaustai-open");
 skliaustaiBtnOpen.addEventListener("click", displaySkliaustaiOpen);
 
@@ -55,7 +55,7 @@ function displaySkliaustaiOpen(){
     screenInput.value += skliaustaiBtnOpenValue;
 }
 
-// Skliaustu-close button //
+// Bracket-close button //
 let skliaustaiBtnClose = document.querySelector(".skliaustai-close");
 skliaustaiBtnClose.addEventListener("click", displaySkliaustaiClose);
 
